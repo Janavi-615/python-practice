@@ -1,0 +1,7 @@
+from datetime import datetime
+import pytz
+w=pytz.timezone("Asia/Tokyo")
+x=datetime.now(w)
+print(x)
+for i in pytz.all_timezones:
+    print(i)
